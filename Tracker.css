@@ -35,3 +35,28 @@ body{
     border-radius: 8px;
 
 }
+
+.inputs {
+
+    width: 30%;
+}
+
+
+.cards {
+    display: flex;
+    width: 93%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.card{
+
+   background-color: green;
+   border: 0px;
+   height: 150px;
+}
+
+.card-body{
+    color: white;
+}
