@@ -60,3 +60,67 @@ body{
 .card-body{
     color: white;
 }
+
+.transaction-table{
+
+    border: 1px black solid;
+    width: 93%;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow: 5px 4px 3px rgba(26, 221, 39, 0.5);
+    
+
+
+}
+
+#header-row{
+    background: green;
+    display: flex;
+    justify-content: space-evenly;
+   
+  
+
+}
+
+#header-row th{
+    padding: 15px 10px;
+    color: white;
+}
+
+.my-class{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 66px;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+}
+
+
+td{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+th{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#dropdown{
+
+    height: 58px;
+    border: 1px solid green;
+}
